@@ -1,6 +1,23 @@
 # Pasos para instlar NodeJS y Python
 
-## 1. Sistema operativo Linux (asumiento sistema ubuntu 20.04)
+## 1. Sistema operativo Windows
+
+a) NodeJS
+
+instalación y comprobación
+```
+https://www.youtube.com/watch?v=BgtB31gXkoA
+```
+
+b) Python 3
+
+instalación y comprobación
+```
+https://www.youtube.com/watch?v=9fNKy9zOPkg
+```
+
+
+## 2. Sistema operativo Linux (asumiento sistema ubuntu 20.04)
 
 a) NodeJS
 
@@ -33,22 +50,3 @@ pip3 --version
 ````
 Python 3.8.10
 pip 21.3
-
-
-
-
-## 2. Sistema operativo Windows
-
-a) NodeJS
-
-instalación y comprobación
-```
-https://www.youtube.com/watch?v=BgtB31gXkoA
-```
-
-b) Python 3
-
-instalación y comprobación
-```
-https://www.youtube.com/watch?v=9fNKy9zOPkg
-```
