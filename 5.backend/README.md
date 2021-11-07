@@ -80,10 +80,7 @@ app.get('/', function (req, res) {
 })
 app.listen(3000)
 ```
-* Nota: Esto significa que estaremos creando un servidor http que estará escuchando peticiones en el puerto 3000 de nuestra interfaz de red localhost
-* Nota2: Localhost es un ambiente de desarrollo local equivalente a la ip 127.0.0.1 (en la práctica de la sesión 2 de redes descubrimos que tenemos esa interfaz de red). Local significa que aún no estamos saliendo al internet.
-* Nota3: Salir a Internet tiene mayor grado de complejidades y debemos ser más cautelosos ya que nos abre la puerta a ciberataques, por lo que optamos por solamente utilizar la red local que es segura para desarrollo. 
-* Nota4: La red local es lo que comunmente se utiliza para el ambiente de desarrollo inclusive en compañías grandes como google y facebook.
+
 
 e) inicializemos el servidor
 
@@ -98,11 +95,19 @@ f) comprobar desde un navegador, navegar a localhost:3000 o bien 127.0.0.1:3000
 http://127.0.0.1:3000
 ```
 
-* Nota5: Los puertos para servidores http abiertos al internet, comunmente son 80 o 443
-El puerto 80 se utiliza para servidores web no seguros (http).
-El puerto 443 se utiliza para servidores web seguros (https).
 
 ## Recursos
-
+```
 https://docs.npmjs.com/cli/v7/commands/npm-init/
 https://www.npmjs.com/package/express
+```
+
+## Notas Adicionales
+
+* Nota: En el presente ejercicio estamos creando un servidor http que está escuchando peticiones en el puerto 3000 de nuestra interfaz de red localhost
+* Nota2: Localhost es un ambiente de desarrollo local equivalente a la ip 127.0.0.1 (en la práctica de la sesión 2 de redes descubrimos que tenemos esa interfaz de red). Local significa que aún no estamos saliendo al internet.
+* Nota3: Salir a Internet tiene mayor grado de complejidades y debemos ser más cautelosos ya que nos abre la puerta a ciberataques, por lo que optamos por solamente utilizar la red local que es segura para desarrollo. 
+* Nota4: La red local es lo que comunmente se utiliza para el ambiente de desarrollo inclusive en compañías grandes como google y facebook.
+* Nota5: Los puertos para servidores http abiertos al internet, comunmente son 80 o 443
+* El puerto 80 se utiliza para servidores web no seguros (http).
+* El puerto 443 se utiliza para servidores web seguros (https).
