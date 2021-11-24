@@ -75,10 +75,16 @@ d) crear un archivo de entrada a nuestro servidor llamado "index.js" que conteng
 ```
 const express = require('express')
 const app = express()
+ 
 app.get('/', function (req, res) {
   res.send('Hello World')
 })
-app.listen(3000)
+ 
+const port = 3000;
+
+app.listen(port, () => {
+  console.log(`Example app listening at http://localhost:${port}`)
+})
 ```
 
 
@@ -87,7 +93,11 @@ e) inicializemos el servidor
 ```
 node index.js
 ```
-Server running on port 3000
+Servidor escuchando peticiones en puerto 3000
+```
+Example app listening at http://localhost:3000
+```
+
 
 
 f) comprobar desde un navegador, navegar a localhost:3000 o bien 127.0.0.1:3000
